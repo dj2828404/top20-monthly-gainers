@@ -1,0 +1,2122 @@
+{
+ "month": "2026-11",
+ "start_date": "2026-10-30",
+ "end_date": "2026-11-16",
+ "complete": false,
+ "min_mcap_cr": 500,
+ "generated_at": "2026-11-16T13:30:00Z",
+ "stocks": [
+  {
+   "rank": 1,
+   "symbol": "PARAGMILK",
+   "name": "Parag Milk Foods",
+   "sector": "Dairy products",
+   "mcap_cr": 4324,
+   "return_pct": 47.6,
+   "close_start": 233.15,
+   "close_end": 344.14,
+   "big_day": "2026-11-04",
+   "big_day_pct": 17.0,
+   "big_day_turnover_cr": 433.0,
+   "median_turnover_cr": 42.0,
+   "trigger_type": "Earnings",
+   "confidence": "High",
+   "headline": "Record quarterly revenue and a Rs 205 crore paneer and cheese expansion",
+   "what": "Results came out late on 3 November. Sales were the highest the company has ever reported for a quarter, driven by 12% volume growth, and operating margin widened to 8%. Alongside the results the board cleared about Rs 205 crore of capacity expansion in paneer and cheese, and filed an amalgamation intimation the same evening. The stock rose 17% on 4 November and another 11% on 5 November. Later in the month a Mother Dairy milk price hike kept dairy stocks in focus.",
+   "numbers": "Q2 FY27 revenue Rs 1,241 crore (+23% YoY). Operating profit Rs 99 crore (Rs 71 crore a year ago). Net profit Rs 42 crore (Rs 46 crore a year ago, which included a one-time gain of about Rs 16 crore).",
+   "caveat": "Reported net profit actually fell 8%; the growth story rests on the adjusted figure. The amalgamation filing was not read in detail.",
+   "price_adjusted": false,
+   "sources": [
+    {
+     "label": "NSE: board meeting outcome, 3 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/PARAGMILK_03112026224726_Intimation.pdf"
+    },
+    {
+     "label": "Angel One: share price after Q2 results",
+     "url": "https://www.angelone.in/news/stocks/parag-milk-foods-share-price-surges-over-17-after-q2-fy27-earnings-results-revenue-hits-record-1-241-crore"
+    }
+   ],
+   "series": [
+    {
+     "date": "2026-10-30",
+     "close": 233.15,
+     "change_pct": null,
+     "turnover_cr": 17.0
+    },
+    {
+     "date": "2026-11-02",
+     "close": 242.38,
+     "change_pct": 4.0,
+     "turnover_cr": 20.0
+    },
+    {
+     "date": "2026-11-03",
+     "close": 249.52,
+     "change_pct": 2.9,
+     "turnover_cr": 23.0
+    },
+    {
+     "date": "2026-11-04",
+     "close": 291.98,
+     "change_pct": 17.0,
+     "turnover_cr": 433.0
+    },
+    {
+     "date": "2026-11-05",
+     "close": 323.75,
+     "change_pct": 10.9,
+     "turnover_cr": 696.0
+    },
+    {
+     "date": "2026-11-06",
+     "close": 327.92,
+     "change_pct": 1.3,
+     "turnover_cr": 220.0
+    },
+    {
+     "date": "2026-11-08",
+     "close": 323.87,
+     "change_pct": -1.2,
+     "turnover_cr": 19.0
+    },
+    {
+     "date": "2026-11-09",
+     "close": 324.64,
+     "change_pct": 0.2,
+     "turnover_cr": 44.0
+    },
+    {
+     "date": "2026-11-11",
+     "close": 328.01,
+     "change_pct": 1.0,
+     "turnover_cr": 47.0
+    },
+    {
+     "date": "2026-11-12",
+     "close": 325.58,
+     "change_pct": -0.7,
+     "turnover_cr": 29.0
+    },
+    {
+     "date": "2026-11-13",
+     "close": 331.22,
+     "change_pct": 1.7,
+     "turnover_cr": 40.0
+    },
+    {
+     "date": "2026-11-16",
+     "close": 344.14,
+     "change_pct": 3.9,
+     "turnover_cr": 103.0
+    }
+   ],
+   "evidence_hash": ""
+  },
+  {
+   "rank": 2,
+   "symbol": "STYLEBAAZA",
+   "name": "Baazar Style Retail",
+   "sector": "Speciality retail",
+   "mcap_cr": 3897,
+   "return_pct": 45.1,
+   "close_start": 352.75,
+   "close_end": 511.7,
+   "big_day": "2026-11-16",
+   "big_day_pct": 9.2,
+   "big_day_turnover_cr": 394.0,
+   "median_turnover_cr": 55.0,
+   "trigger_type": "Growth plan",
+   "confidence": "Medium",
+   "headline": "FY29 roadmap of Rs 5,600 crore turnover and 600 stores, despite a loss-making quarter",
+   "what": "The reported quarter was weak, partly because Durga Puja demand fell in the third quarter this year instead of the second. The stock still climbed almost every day from 6 November as the company announced new store openings, and then jumped 9% on 16 November to a 52-week high after management published a growth roadmap on 14 November: Rs 5,600 crore turnover and 600 stores by FY29, against 283 stores today.",
+   "numbers": "Q2 FY27 revenue Rs 478 crore (-10% YoY). Net loss Rs 32 crore (profit Rs 51 crore a year ago, helped by Rs 59 crore of other income). H1 revenue Rs 964.5 crore (+6%).",
+   "caveat": "The move is built on targets, not delivered numbers. Screener.in shows promoter holding down 9.72 percentage points over the last quarter.",
+   "price_adjusted": false,
+   "sources": [
+    {
+     "label": "NSE: growth and expansion roadmap press release, 14 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/BSRL2024_14112026184159_Press_Realease_Cover14112026_signed.pdf"
+    },
+    {
+     "label": "Apparel Resources: H1 revenue and store count",
+     "url": "https://apparelresources.com/business-news/retail/baazar-style-retail-h1-revenue-rises-6-store-network-hits-283/"
+    }
+   ],
+   "series": [
+    {
+     "date": "2026-10-30",
+     "close": 352.75,
+     "change_pct": null,
+     "turnover_cr": 30.0
+    },
+    {
+     "date": "2026-11-02",
+     "close": 367.05,
+     "change_pct": 4.1,
+     "turnover_cr": 26.0
+    },
+    {
+     "date": "2026-11-03",
+     "close": 359.2,
+     "change_pct": -2.1,
+     "turnover_cr": 10.0
+    },
+    {
+     "date": "2026-11-04",
+     "close": 376.25,
+     "change_pct": 4.7,
+     "turnover_cr": 14.0
+    },
+    {
+     "date": "2026-11-05",
+     "close": 372.7,
+     "change_pct": -0.9,
+     "turnover_cr": 16.0
+    },
+    {
+     "date": "2026-11-06",
+     "close": 390.75,
+     "change_pct": 4.8,
+     "turnover_cr": 80.0
+    },
+    {
+     "date": "2026-11-08",
+     "close": 399.25,
+     "change_pct": 2.2,
+     "turnover_cr": 18.0
+    },
+    {
+     "date": "2026-11-09",
+     "close": 417.9,
+     "change_pct": 4.7,
+     "turnover_cr": 127.0
+    },
+    {
+     "date": "2026-11-11",
+     "close": 430.95,
+     "change_pct": 3.1,
+     "turnover_cr": 134.0
+    },
+    {
+     "date": "2026-11-12",
+     "close": 443.5,
+     "change_pct": 2.9,
+     "turnover_cr": 120.0
+    },
+    {
+     "date": "2026-11-13",
+     "close": 468.75,
+     "change_pct": 5.7,
+     "turnover_cr": 271.0
+    },
+    {
+     "date": "2026-11-16",
+     "close": 511.7,
+     "change_pct": 9.2,
+     "turnover_cr": 394.0
+    }
+   ],
+   "evidence_hash": ""
+  },
+  {
+   "rank": 3,
+   "symbol": "GYFTR",
+   "name": "GYFTR",
+   "sector": "Other financial services",
+   "mcap_cr": 1722,
+   "return_pct": 42.7,
+   "close_start": 157.04,
+   "close_end": 224.17,
+   "big_day": "2026-11-05",
+   "big_day_pct": 15.7,
+   "big_day_turnover_cr": 108.0,
+   "median_turnover_cr": 10.5,
+   "trigger_type": "No clear trigger",
+   "confidence": "Low",
+   "headline": "A 16% jump on 5 November with no filing behind it; results a week later were weak",
+   "what": "Most of the month's gain came on 5 November, when turnover was Rs 108 crore against a usual Rs 1 to 5 crore. The only reason reported that day was that the company had announced the date of its Q2 results. When the results arrived on 13 November, profit had halved and the business was roughly break-even at the operating level. The company is now described as a digital gift cards business after earlier being an investment and finance entity, which is why its revenue line has changed so sharply.",
+   "numbers": "Q2 FY27 revenue Rs 125 crore. Net profit Rs 2.5 crore (Rs 5.0 crore a year ago). Operating profit close to zero; profit came from Rs 5 crore of other income.",
+   "caveat": "No public trigger explains the size of the move. P/E is about 87 on Screener.in.",
+   "price_adjusted": false,
+   "sources": [
+    {
+     "label": "NSE: Q2 results, 13 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/GYFTR_13112026175839_Outcome_of_BM.pdf"
+    }
+   ],
+   "series": [
+    {
+     "date": "2026-10-30",
+     "close": 157.04,
+     "change_pct": null,
+     "turnover_cr": 1.0
+    },
+    {
+     "date": "2026-11-02",
+     "close": 166.51,
+     "change_pct": 6.0,
+     "turnover_cr": 15.0
+    },
+    {
+     "date": "2026-11-03",
+     "close": 174.28,
+     "change_pct": 4.7,
+     "turnover_cr": 4.0
+    },
+    {
+     "date": "2026-11-04",
+     "close": 182.38,
+     "change_pct": 4.6,
+     "turnover_cr": 5.0
+    },
+    {
+     "date": "2026-11-05",
+     "close": 210.95,
+     "change_pct": 15.7,
+     "turnover_cr": 108.0
+    },
+    {
+     "date": "2026-11-06",
+     "close": 210.86,
+     "change_pct": -0.0,
+     "turnover_cr": 26.0
+    },
+    {
+     "date": "2026-11-08",
+     "close": 214.22,
+     "change_pct": 1.6,
+     "turnover_cr": 5.0
+    },
+    {
+     "date": "2026-11-09",
+     "close": 209.65,
+     "change_pct": -2.1,
+     "turnover_cr": 13.0
+    },
+    {
+     "date": "2026-11-11",
+     "close": 214.69,
+     "change_pct": 2.4,
+     "turnover_cr": 6.0
+    },
+    {
+     "date": "2026-11-12",
+     "close": 219.65,
+     "change_pct": 2.3,
+     "turnover_cr": 15.0
+    },
+    {
+     "date": "2026-11-13",
+     "close": 220.47,
+     "change_pct": 0.4,
+     "turnover_cr": 9.0
+    },
+    {
+     "date": "2026-11-16",
+     "close": 224.17,
+     "change_pct": 1.7,
+     "turnover_cr": 12.0
+    }
+   ],
+   "evidence_hash": ""
+  },
+  {
+   "rank": 4,
+   "symbol": "SKYWAYS",
+   "name": "Skyways Air Services",
+   "sector": "Logistics",
+   "mcap_cr": 1915,
+   "return_pct": 42.6,
+   "close_start": 92.45,
+   "close_end": 131.81,
+   "big_day": "2026-11-16",
+   "big_day_pct": 13.4,
+   "big_day_turnover_cr": 360.0,
+   "median_turnover_cr": 7.0,
+   "trigger_type": "Earnings",
+   "confidence": "High",
+   "headline": "Q2 profit up about 130% on 90% revenue growth",
+   "what": "Results were published on Saturday 14 November and the stock rose 13% on Monday 16 November on Rs 360 crore of turnover, against single-digit crores on most days. The board also declared an interim dividend of Rs 0.40. Earlier in the month the company renewed its global annual agreement with Qatar Airways, and in late October it reported acquisitions at subsidiary level, which helped a slow climb before the results.",
+   "numbers": "Q2 FY27 revenue Rs 1,311 crore (+90% YoY). Net profit Rs 33 crore (Rs 14 crore a year ago). Operating margin 4.4%.",
+   "caveat": "Recently listed, and Business Standard notes the price is still below the IPO price. Margins are thin, as is normal for freight forwarding.",
+   "price_adjusted": false,
+   "sources": [
+    {
+     "label": "NSE: Q2 results press release, 14 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/SKYWAYS_14112026203400_Press_Release_on_Financial_Results_-_Q2_FY27.pdf"
+    },
+    {
+     "label": "NSE: Qatar Airways agreement renewal, 6 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/SKYWAYS_06112026194435_Intimation_of_Agreement_with_Qatar_Airways.pdf"
+    }
+   ],
+   "series": [
+    {
+     "date": "2026-10-30",
+     "close": 92.45,
+     "change_pct": null,
+     "turnover_cr": 4.0
+    },
+    {
+     "date": "2026-11-02",
+     "close": 96.15,
+     "change_pct": 4.0,
+     "turnover_cr": 6.0
+    },
+    {
+     "date": "2026-11-03",
+     "close": 97.52,
+     "change_pct": 1.4,
+     "turnover_cr": 10.0
+    },
+    {
+     "date": "2026-11-04",
+     "close": 105.04,
+     "change_pct": 7.7,
+     "turnover_cr": 17.0
+    },
+    {
+     "date": "2026-11-05",
+     "close": 107.51,
+     "change_pct": 2.4,
+     "turnover_cr": 13.0
+    },
+    {
+     "date": "2026-11-06",
+     "close": 106.01,
+     "change_pct": -1.4,
+     "turnover_cr": 4.0
+    },
+    {
+     "date": "2026-11-08",
+     "close": 107.45,
+     "change_pct": 1.4,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-09",
+     "close": 108.6,
+     "change_pct": 1.1,
+     "turnover_cr": 7.0
+    },
+    {
+     "date": "2026-11-11",
+     "close": 110.49,
+     "change_pct": 1.7,
+     "turnover_cr": 7.0
+    },
+    {
+     "date": "2026-11-12",
+     "close": 111.73,
+     "change_pct": 1.1,
+     "turnover_cr": 6.0
+    },
+    {
+     "date": "2026-11-13",
+     "close": 116.24,
+     "change_pct": 4.0,
+     "turnover_cr": 38.0
+    },
+    {
+     "date": "2026-11-16",
+     "close": 131.81,
+     "change_pct": 13.4,
+     "turnover_cr": 360.0
+    }
+   ],
+   "evidence_hash": ""
+  },
+  {
+   "rank": 5,
+   "symbol": "KALYANKJIL",
+   "name": "Kalyan Jewellers India",
+   "sector": "Gems and jewellery",
+   "mcap_cr": 73134,
+   "return_pct": 42.2,
+   "close_start": 498.0,
+   "close_end": 708.15,
+   "big_day": "2026-11-11",
+   "big_day_pct": 8.6,
+   "big_day_turnover_cr": 4325.0,
+   "median_turnover_cr": 587.0,
+   "trigger_type": "Earnings",
+   "confidence": "High",
+   "headline": "Q2 profit up 64% with revenue above Rs 10,000 crore",
+   "what": "Results on 10 November showed strong festive-season demand. The stock hit its 10% upper limit on 11 November and gained a further 7% on 12 November, with daily turnover above Rs 3,600 crore on both days. It had already started rising from 4 to 6 November, ahead of the numbers. By far the largest company on this list.",
+   "numbers": "Q2 FY27 revenue Rs 10,323 crore (+31% YoY). Net profit Rs 427 crore (Rs 261 crore a year ago). H1 revenue above Rs 20,900 crore, H1 profit Rs 776 crore.",
+   "caveat": "About a third of the month's gain came before the results were public. P/E is about 46.",
+   "price_adjusted": false,
+   "sources": [
+    {
+     "label": "NSE: Q2 results, 10 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/KALYANKJIL_10112026170450_Results_q2_Signed.pdf"
+    },
+    {
+     "label": "Upstox: 10% upper circuit on Q2 earnings",
+     "url": "https://upstox.com/news/market-news/stocks/kalyan-jewellers-shares-hit-10-upper-circuit-on-strong-q2-earnings-key-details-for-investors/article-203261/"
+    }
+   ],
+   "series": [
+    {
+     "date": "2026-10-30",
+     "close": 498.0,
+     "change_pct": null,
+     "turnover_cr": 150.0
+    },
+    {
+     "date": "2026-11-02",
+     "close": 505.45,
+     "change_pct": 1.5,
+     "turnover_cr": 127.0
+    },
+    {
+     "date": "2026-11-03",
+     "close": 508.2,
+     "change_pct": 0.5,
+     "turnover_cr": 166.0
+    },
+    {
+     "date": "2026-11-04",
+     "close": 529.05,
+     "change_pct": 4.1,
+     "turnover_cr": 312.0
+    },
+    {
+     "date": "2026-11-05",
+     "close": 560.0,
+     "change_pct": 5.9,
+     "turnover_cr": 326.0
+    },
+    {
+     "date": "2026-11-06",
+     "close": 590.75,
+     "change_pct": 5.5,
+     "turnover_cr": 1451.0
+    },
+    {
+     "date": "2026-11-08",
+     "close": 592.0,
+     "change_pct": 0.2,
+     "turnover_cr": 183.0
+    },
+    {
+     "date": "2026-11-09",
+     "close": 611.0,
+     "change_pct": 3.2,
+     "turnover_cr": 848.0
+    },
+    {
+     "date": "2026-11-11",
+     "close": 663.75,
+     "change_pct": 8.6,
+     "turnover_cr": 4325.0
+    },
+    {
+     "date": "2026-11-12",
+     "close": 710.9,
+     "change_pct": 7.1,
+     "turnover_cr": 3610.0
+    },
+    {
+     "date": "2026-11-13",
+     "close": 697.0,
+     "change_pct": -2.0,
+     "turnover_cr": 1454.0
+    },
+    {
+     "date": "2026-11-16",
+     "close": 708.15,
+     "change_pct": 1.6,
+     "turnover_cr": 1481.0
+    }
+   ],
+   "evidence_hash": ""
+  },
+  {
+   "rank": 6,
+   "symbol": "MSTCLTD",
+   "name": "MSTC",
+   "sector": "Trading and e-auction services (PSU)",
+   "mcap_cr": 5324,
+   "return_pct": 41.4,
+   "close_start": 534.85,
+   "close_end": 756.5,
+   "big_day": "2026-11-13",
+   "big_day_pct": 20.0,
+   "big_day_turnover_cr": 487.0,
+   "median_turnover_cr": 13.0,
+   "trigger_type": "Earnings",
+   "confidence": "High",
+   "headline": "20% upper circuit after Q2 profit rose more than 50%",
+   "what": "Results were filed after market hours on 12 November. On 13 November the stock was locked at its 20% upper limit with Rs 487 crore of turnover, against Rs 5 to 20 crore on a normal day. Management described record first-half revenue and profit on the earnings call. The e-auction business runs at very high margins, so revenue growth passes almost fully to profit.",
+   "numbers": "Q2 FY27 revenue Rs 110 crore (+29% YoY). Net profit Rs 75 crore (Rs 48 crore a year ago). Operating margin 67%.",
+   "caveat": "Livemint notes the stock had already more than doubled in seven months before this move. It gave back 3% on 16 November.",
+   "price_adjusted": false,
+   "sources": [
+    {
+     "label": "NSE: Q2 results, 12 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/MSTCLTD_12112026174610_SE782.pdf"
+    },
+    {
+     "label": "NSE: investor presentation, 12 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/MSTCLTD_12112026181900_SE783.pdf"
+    }
+   ],
+   "series": [
+    {
+     "date": "2026-10-30",
+     "close": 534.85,
+     "change_pct": null,
+     "turnover_cr": 13.0
+    },
+    {
+     "date": "2026-11-02",
+     "close": 548.05,
+     "change_pct": 2.5,
+     "turnover_cr": 10.0
+    },
+    {
+     "date": "2026-11-03",
+     "close": 565.5,
+     "change_pct": 3.2,
+     "turnover_cr": 21.0
+    },
+    {
+     "date": "2026-11-04",
+     "close": 583.9,
+     "change_pct": 3.3,
+     "turnover_cr": 10.0
+    },
+    {
+     "date": "2026-11-05",
+     "close": 592.3,
+     "change_pct": 1.4,
+     "turnover_cr": 13.0
+    },
+    {
+     "date": "2026-11-06",
+     "close": 589.8,
+     "change_pct": -0.4,
+     "turnover_cr": 6.0
+    },
+    {
+     "date": "2026-11-08",
+     "close": 599.0,
+     "change_pct": 1.6,
+     "turnover_cr": 3.0
+    },
+    {
+     "date": "2026-11-09",
+     "close": 603.55,
+     "change_pct": 0.8,
+     "turnover_cr": 5.0
+    },
+    {
+     "date": "2026-11-11",
+     "close": 659.05,
+     "change_pct": 9.2,
+     "turnover_cr": 62.0
+    },
+    {
+     "date": "2026-11-12",
+     "close": 652.8,
+     "change_pct": -0.9,
+     "turnover_cr": 26.0
+    },
+    {
+     "date": "2026-11-13",
+     "close": 783.35,
+     "change_pct": 20.0,
+     "turnover_cr": 487.0
+    },
+    {
+     "date": "2026-11-16",
+     "close": 756.5,
+     "change_pct": -3.4,
+     "turnover_cr": 82.0
+    }
+   ],
+   "evidence_hash": ""
+  },
+  {
+   "rank": 7,
+   "symbol": "HINDOILEXP",
+   "name": "Hindustan Oil Exploration",
+   "sector": "Oil exploration and production",
+   "mcap_cr": 2814,
+   "return_pct": 38.8,
+   "close_start": 153.2,
+   "close_end": 212.66,
+   "big_day": "2026-11-16",
+   "big_day_pct": 10.5,
+   "big_day_turnover_cr": 420.0,
+   "median_turnover_cr": 5.0,
+   "trigger_type": "Earnings plus other news",
+   "confidence": "Medium",
+   "headline": "Profit recovery in Q2, then a late rally after the earnings call on gas output",
+   "what": "Results on 6 November showed profit recovering sharply from a very low base, but the stock did not react. The rally started on 11 and 12 November (about 10% each day) and continued with another 10.5% on 16 November on Rs 420 crore of turnover. That timing lines up with the earnings call, where management discussed gas volumes at the Dirok field and the planned expansion of its processing capacity, rather than with the result itself.",
+   "numbers": "Q2 FY27 revenue Rs 124 crore (-61% YoY). Net profit Rs 18.9 crore (Rs 2.8 crore a year ago). Operating margin 26%.",
+   "caveat": "The five-day gap between results and the rally means the exact trigger is an inference, not a confirmed fact. P/E is about 68.",
+   "price_adjusted": false,
+   "sources": [
+    {
+     "label": "NSE: earnings call transcript, 13 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/HINDOILEXPCS_13112026210152_EC_Transcript.pdf"
+    },
+    {
+     "label": "JM Financial: Q2 net profit",
+     "url": "https://www.jmfinancialservices.in/market-news-and-insights/1746573"
+    }
+   ],
+   "series": [
+    {
+     "date": "2026-10-30",
+     "close": 153.2,
+     "change_pct": null,
+     "turnover_cr": 17.0
+    },
+    {
+     "date": "2026-11-02",
+     "close": 152.94,
+     "change_pct": -0.2,
+     "turnover_cr": 3.0
+    },
+    {
+     "date": "2026-11-03",
+     "close": 151.46,
+     "change_pct": -1.0,
+     "turnover_cr": 4.0
+    },
+    {
+     "date": "2026-11-04",
+     "close": 155.64,
+     "change_pct": 2.8,
+     "turnover_cr": 5.0
+    },
+    {
+     "date": "2026-11-05",
+     "close": 154.82,
+     "change_pct": -0.5,
+     "turnover_cr": 5.0
+    },
+    {
+     "date": "2026-11-06",
+     "close": 151.84,
+     "change_pct": -1.9,
+     "turnover_cr": 3.0
+    },
+    {
+     "date": "2026-11-08",
+     "close": 159.01,
+     "change_pct": 4.7,
+     "turnover_cr": 4.0
+    },
+    {
+     "date": "2026-11-09",
+     "close": 155.71,
+     "change_pct": -2.1,
+     "turnover_cr": 3.0
+    },
+    {
+     "date": "2026-11-11",
+     "close": 171.27,
+     "change_pct": 10.0,
+     "turnover_cr": 28.0
+    },
+    {
+     "date": "2026-11-12",
+     "close": 188.79,
+     "change_pct": 10.2,
+     "turnover_cr": 138.0
+    },
+    {
+     "date": "2026-11-13",
+     "close": 192.4,
+     "change_pct": 1.9,
+     "turnover_cr": 38.0
+    },
+    {
+     "date": "2026-11-16",
+     "close": 212.66,
+     "change_pct": 10.5,
+     "turnover_cr": 420.0
+    }
+   ],
+   "evidence_hash": ""
+  },
+  {
+   "rank": 8,
+   "symbol": "KALAMANDIR",
+   "name": "Sai Silks (Kalamandir)",
+   "sector": "Speciality retail",
+   "mcap_cr": 1380,
+   "return_pct": 38.6,
+   "close_start": 64.95,
+   "close_end": 90.05,
+   "big_day": "2026-11-05",
+   "big_day_pct": 10.1,
+   "big_day_turnover_cr": 44.0,
+   "median_turnover_cr": 12.0,
+   "trigger_type": "No clear trigger",
+   "confidence": "Low",
+   "headline": "Bounce from a 52-week low after results that were actually down year on year",
+   "what": "The stock closed October at about its 52-week low, roughly 64% below its high. Results on 3 November showed lower sales and profit than a year ago, yet the price rose about 9 to 10% on each of the next three days, with turnover reaching Rs 155 crore against a usual Rs 2 to 5 crore. The company opened its 87th store at the end of October. Nothing in the filings explains a 37% move, so this reads as a relief rally in a beaten-down stock once the results were out of the way.",
+   "numbers": "Q2 FY27 revenue Rs 434 crore (-2% YoY). Net profit Rs 31 crore (Rs 40 crore a year ago). Operating margin 14%.",
+   "caveat": "No positive news trigger found. The stock has been flat to lower since 11 November.",
+   "price_adjusted": false,
+   "sources": [
+    {
+     "label": "NSE: Q2 results, 3 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/SSKL_03112026170922_Outcome_of_BM_031126.pdf"
+    },
+    {
+     "label": "Univest: Q2 results summary",
+     "url": "https://univest.in/blogs/sai-silks-kalamandir-q2-results-fy27-pat-31-crore"
+    }
+   ],
+   "series": [
+    {
+     "date": "2026-10-30",
+     "close": 64.95,
+     "change_pct": null,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-02",
+     "close": 65.93,
+     "change_pct": 1.5,
+     "turnover_cr": 3.0
+    },
+    {
+     "date": "2026-11-03",
+     "close": 67.55,
+     "change_pct": 2.5,
+     "turnover_cr": 7.0
+    },
+    {
+     "date": "2026-11-04",
+     "close": 73.7,
+     "change_pct": 9.1,
+     "turnover_cr": 41.0
+    },
+    {
+     "date": "2026-11-05",
+     "close": 81.11,
+     "change_pct": 10.1,
+     "turnover_cr": 44.0
+    },
+    {
+     "date": "2026-11-06",
+     "close": 89.05,
+     "change_pct": 9.8,
+     "turnover_cr": 155.0
+    },
+    {
+     "date": "2026-11-08",
+     "close": 91.06,
+     "change_pct": 2.3,
+     "turnover_cr": 12.0
+    },
+    {
+     "date": "2026-11-09",
+     "close": 90.68,
+     "change_pct": -0.4,
+     "turnover_cr": 37.0
+    },
+    {
+     "date": "2026-11-11",
+     "close": 93.74,
+     "change_pct": 3.4,
+     "turnover_cr": 25.0
+    },
+    {
+     "date": "2026-11-12",
+     "close": 93.12,
+     "change_pct": -0.7,
+     "turnover_cr": 12.0
+    },
+    {
+     "date": "2026-11-13",
+     "close": 90.13,
+     "change_pct": -3.2,
+     "turnover_cr": 4.0
+    },
+    {
+     "date": "2026-11-16",
+     "close": 90.05,
+     "change_pct": -0.1,
+     "turnover_cr": 9.0
+    }
+   ],
+   "evidence_hash": ""
+  },
+  {
+   "rank": 9,
+   "symbol": "ANUP",
+   "name": "The Anup Engineering",
+   "sector": "Industrial products",
+   "mcap_cr": 3628,
+   "return_pct": 38.0,
+   "close_start": 1313.0,
+   "close_end": 1811.4,
+   "big_day": "2026-11-13",
+   "big_day_pct": 20.0,
+   "big_day_turnover_cr": 206.0,
+   "median_turnover_cr": 3.5,
+   "trigger_type": "No clear trigger",
+   "confidence": "Low",
+   "headline": "A 20% jump on 13 November, a week after poor results, with no announcement that day",
+   "what": "Results on 6 November were poor: sales down a fifth and profit down almost 80%, with a change of chief financial officer on the same day. The stock barely moved. Then on 13 November it rose 20% on Rs 206 crore of turnover, against about Rs 3 crore normally, and added 5% on 16 November. The only filings around that date were the earnings call transcript (12 November) and an investor-meet intimation (15 November). An acquisition-related update had been filed on 30 October.",
+   "numbers": "Q2 FY27 revenue Rs 182 crore (-21% YoY). Net profit Rs 6.6 crore (Rs 32 crore a year ago). Operating margin 9.6% (22% a year ago).",
+   "caveat": "I could not find the reason for the 13 November move. Worth reading the call transcript for order-book or guidance comments before drawing any conclusion.",
+   "price_adjusted": false,
+   "sources": [
+    {
+     "label": "NSE: earnings call transcript, 12 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/ANUP_12112026222034_IntimationTranscript.pdf"
+    },
+    {
+     "label": "NSE: Q2 results press release, 6 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/ANUP_06112026124958_IntimationPR.pdf"
+    }
+   ],
+   "series": [
+    {
+     "date": "2026-10-30",
+     "close": 1313.0,
+     "change_pct": null,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-02",
+     "close": 1336.7,
+     "change_pct": 1.8,
+     "turnover_cr": 3.0
+    },
+    {
+     "date": "2026-11-03",
+     "close": 1360.5,
+     "change_pct": 1.8,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-04",
+     "close": 1386.2,
+     "change_pct": 1.9,
+     "turnover_cr": 3.0
+    },
+    {
+     "date": "2026-11-05",
+     "close": 1385.7,
+     "change_pct": -0.0,
+     "turnover_cr": 5.0
+    },
+    {
+     "date": "2026-11-06",
+     "close": 1344.9,
+     "change_pct": -2.9,
+     "turnover_cr": 30.0
+    },
+    {
+     "date": "2026-11-08",
+     "close": 1438.3,
+     "change_pct": 6.9,
+     "turnover_cr": 6.0
+    },
+    {
+     "date": "2026-11-09",
+     "close": 1433.4,
+     "change_pct": -0.3,
+     "turnover_cr": 3.0
+    },
+    {
+     "date": "2026-11-11",
+     "close": 1419.8,
+     "change_pct": -0.9,
+     "turnover_cr": 4.0
+    },
+    {
+     "date": "2026-11-12",
+     "close": 1437.5,
+     "change_pct": 1.2,
+     "turnover_cr": 3.0
+    },
+    {
+     "date": "2026-11-13",
+     "close": 1725.0,
+     "change_pct": 20.0,
+     "turnover_cr": 206.0
+    },
+    {
+     "date": "2026-11-16",
+     "close": 1811.4,
+     "change_pct": 5.0,
+     "turnover_cr": 76.0
+    }
+   ],
+   "evidence_hash": ""
+  },
+  {
+   "rank": 10,
+   "symbol": "MMFL",
+   "name": "M M Forgings",
+   "sector": "Auto components",
+   "mcap_cr": 3213,
+   "return_pct": 37.9,
+   "close_start": 482.9,
+   "close_end": 665.7,
+   "big_day": "2026-11-06",
+   "big_day_pct": 20.0,
+   "big_day_turnover_cr": 304.0,
+   "median_turnover_cr": 17.0,
+   "trigger_type": "Earnings",
+   "confidence": "High",
+   "headline": "Q2 revenue up 43% and profit more than doubled",
+   "what": "Results were filed on the evening of 5 November and the stock rose 20% on 6 November on Rs 304 crore of turnover, against Rs 5 to 7 crore in the days before. After four years of flat to falling sales, growth has accelerated for three quarters in a row. On the 13 November call management spoke of full-year turnover above Rs 2,000 crore.",
+   "numbers": "Q2 FY27 revenue Rs 548 crore (+43% YoY). Operating profit Rs 104 crore (Rs 67 crore). Net profit Rs 42 crore (Rs 18 crore a year ago).",
+   "caveat": "First-half profit includes a land-sale gain of about Rs 56 crore booked in Q1, so half-year numbers overstate the run rate.",
+   "price_adjusted": false,
+   "sources": [
+    {
+     "label": "NSE: Q2 results, 5 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/MMFL_05112026202204_MMFLUAFR30SEP2026.pdf"
+    },
+    {
+     "label": "NSE: investor presentation, 13 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/MMFL_13112026191215_MMFLQ2FY27investoprsntion.pdf"
+    }
+   ],
+   "series": [
+    {
+     "date": "2026-10-30",
+     "close": 482.9,
+     "change_pct": null,
+     "turnover_cr": 19.0
+    },
+    {
+     "date": "2026-11-02",
+     "close": 498.4,
+     "change_pct": 3.2,
+     "turnover_cr": 7.0
+    },
+    {
+     "date": "2026-11-03",
+     "close": 494.65,
+     "change_pct": -0.8,
+     "turnover_cr": 5.0
+    },
+    {
+     "date": "2026-11-04",
+     "close": 522.65,
+     "change_pct": 5.7,
+     "turnover_cr": 7.0
+    },
+    {
+     "date": "2026-11-05",
+     "close": 524.7,
+     "change_pct": 0.4,
+     "turnover_cr": 5.0
+    },
+    {
+     "date": "2026-11-06",
+     "close": 629.4,
+     "change_pct": 20.0,
+     "turnover_cr": 304.0
+    },
+    {
+     "date": "2026-11-08",
+     "close": 669.2,
+     "change_pct": 6.3,
+     "turnover_cr": 52.0
+    },
+    {
+     "date": "2026-11-09",
+     "close": 652.4,
+     "change_pct": -2.5,
+     "turnover_cr": 44.0
+    },
+    {
+     "date": "2026-11-11",
+     "close": 622.7,
+     "change_pct": -4.6,
+     "turnover_cr": 20.0
+    },
+    {
+     "date": "2026-11-12",
+     "close": 638.65,
+     "change_pct": 2.6,
+     "turnover_cr": 9.0
+    },
+    {
+     "date": "2026-11-13",
+     "close": 684.9,
+     "change_pct": 7.2,
+     "turnover_cr": 28.0
+    },
+    {
+     "date": "2026-11-16",
+     "close": 665.7,
+     "change_pct": -2.8,
+     "turnover_cr": 15.0
+    }
+   ],
+   "evidence_hash": ""
+  },
+  {
+   "rank": 11,
+   "symbol": "RUSHIL",
+   "name": "Rushil Decor",
+   "sector": "Plywood, boards and laminates",
+   "mcap_cr": 637,
+   "return_pct": 37.6,
+   "close_start": 15.75,
+   "close_end": 21.67,
+   "big_day": "2026-11-04",
+   "big_day_pct": 13.6,
+   "big_day_turnover_cr": 7.0,
+   "median_turnover_cr": 2.0,
+   "trigger_type": "Earnings",
+   "confidence": "Medium",
+   "headline": "Record Q2 revenue and profit roughly doubled from a low base",
+   "what": "Results on 3 November showed the highest quarterly revenue so far and a return to first-half profit after a loss-making first quarter last year. The stock rose 14% on 4 November and 10% on 5 November, then drifted higher. The smallest company on the list, close to the Rs 500 crore cut-off.",
+   "numbers": "Q2 FY27 revenue Rs 295 crore (+25% YoY). Net profit Rs 10 crore (Rs 5 crore a year ago). Operating margin 9%.",
+   "caveat": "Thinly traded: Rs 1 to 8 crore a day, so the price moves easily. Reports from the call say MDF exports have almost stopped and growth is domestic.",
+   "price_adjusted": false,
+   "sources": [
+    {
+     "label": "NSE: Q2 results press release, 4 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/RUSHIL_04112026121135_FinalPressRelease.pdf"
+    },
+    {
+     "label": "NSE: investor presentation, 4 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/RUSHIL_04112026120456_FinalInvestorPresentation.pdf"
+    }
+   ],
+   "series": [
+    {
+     "date": "2026-10-30",
+     "close": 15.75,
+     "change_pct": null,
+     "turnover_cr": 1.0
+    },
+    {
+     "date": "2026-11-02",
+     "close": 16.34,
+     "change_pct": 3.7,
+     "turnover_cr": 1.0
+    },
+    {
+     "date": "2026-11-03",
+     "close": 15.82,
+     "change_pct": -3.2,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-04",
+     "close": 17.97,
+     "change_pct": 13.6,
+     "turnover_cr": 7.0
+    },
+    {
+     "date": "2026-11-05",
+     "close": 19.72,
+     "change_pct": 9.7,
+     "turnover_cr": 8.0
+    },
+    {
+     "date": "2026-11-06",
+     "close": 19.3,
+     "change_pct": -2.1,
+     "turnover_cr": 1.0
+    },
+    {
+     "date": "2026-11-08",
+     "close": 19.93,
+     "change_pct": 3.3,
+     "turnover_cr": 1.0
+    },
+    {
+     "date": "2026-11-09",
+     "close": 20.13,
+     "change_pct": 1.0,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-11",
+     "close": 20.94,
+     "change_pct": 4.0,
+     "turnover_cr": 3.0
+    },
+    {
+     "date": "2026-11-12",
+     "close": 21.54,
+     "change_pct": 2.9,
+     "turnover_cr": 3.0
+    },
+    {
+     "date": "2026-11-13",
+     "close": 22.11,
+     "change_pct": 2.6,
+     "turnover_cr": 3.0
+    },
+    {
+     "date": "2026-11-16",
+     "close": 21.67,
+     "change_pct": -2.0,
+     "turnover_cr": 2.0
+    }
+   ],
+   "evidence_hash": ""
+  },
+  {
+   "rank": 12,
+   "symbol": "DHANBANK",
+   "name": "Dhanlaxmi Bank",
+   "sector": "Private sector bank",
+   "mcap_cr": 1680,
+   "return_pct": 37.0,
+   "close_start": 31.27,
+   "close_end": 42.84,
+   "big_day": "2026-11-13",
+   "big_day_pct": 14.8,
+   "big_day_turnover_cr": 430.0,
+   "median_turnover_cr": 2.0,
+   "trigger_type": "No clear trigger",
+   "confidence": "Low",
+   "headline": "A sudden 15% jump on 13 November, long after results; centenary news is the only backdrop",
+   "what": "The bank's strong Q2 results (profit more than doubled, bad loans at multi-year lows) were declared on 26 October, before this month began, and the stock was flat for the first eight sessions of November. On 13 November it rose 15% on Rs 430 crore of turnover, against about Rs 2 crore normally, and gained another 6.5% on 16 November. The news around those days was about the bank entering its centenary year, with celebrations on 14 November and management talking of a Rs 40,000 crore business target. No exchange filing in the period explains the move.",
+   "numbers": "Q2 FY27 net profit Rs 49 crore (Rs 23 crore a year ago). Gross NPA 1.76% (3.10% a year ago). Net NPA 0.45%.",
+   "caveat": "Trigger not confirmed. A jump of this size on 200 times normal turnover without news deserves caution.",
+   "price_adjusted": false,
+   "sources": [
+    {
+     "label": "BusinessLine: centenary year and business target (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQc3hPR0dXYm9WY3hJckJDMmNKNy1VZGQtelZpOVBMbVk5WkhPbVZLMmYtVFhudmc3MWtnWU5rSFV5emxDZjBvbF9HaFM5dHdxbEQtazlaOURqZS1OTHQzNmtKTWFfZFhQYW1oc1JCRXRTN3FoMzQ0U1M2UmlwbVhXcDQ0QlJNRGQzemhsbDlrSTB1MHNHa19EeDFQeGctZzRNdHJfTnNYdUp1cjVuOGczY3BqTldYQklaS2RsaFNNaUQ2aGVTaHl4VEdVc3hqbnpyQnFn?oc=5"
+    },
+    {
+     "label": "Choice: results calendar and Q2 summary",
+     "url": "https://choiceindia.com/stocks/dhanlaxmi-bank-ltd-share-price"
+    }
+   ],
+   "series": [
+    {
+     "date": "2026-10-30",
+     "close": 31.27,
+     "change_pct": null,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-02",
+     "close": 31.24,
+     "change_pct": -0.1,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-03",
+     "close": 31.22,
+     "change_pct": -0.1,
+     "turnover_cr": 1.0
+    },
+    {
+     "date": "2026-11-04",
+     "close": 31.82,
+     "change_pct": 1.9,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-05",
+     "close": 33.38,
+     "change_pct": 4.9,
+     "turnover_cr": 6.0
+    },
+    {
+     "date": "2026-11-06",
+     "close": 32.78,
+     "change_pct": -1.8,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-08",
+     "close": 33.14,
+     "change_pct": 1.1,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-09",
+     "close": 32.96,
+     "change_pct": -0.5,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-11",
+     "close": 33.8,
+     "change_pct": 2.5,
+     "turnover_cr": 6.0
+    },
+    {
+     "date": "2026-11-12",
+     "close": 35.05,
+     "change_pct": 3.7,
+     "turnover_cr": 4.0
+    },
+    {
+     "date": "2026-11-13",
+     "close": 40.24,
+     "change_pct": 14.8,
+     "turnover_cr": 430.0
+    },
+    {
+     "date": "2026-11-16",
+     "close": 42.84,
+     "change_pct": 6.5,
+     "turnover_cr": 407.0
+    }
+   ],
+   "evidence_hash": ""
+  },
+  {
+   "rank": 13,
+   "symbol": "YATRA",
+   "name": "Yatra Online",
+   "sector": "Travel services",
+   "mcap_cr": 1471,
+   "return_pct": 36.8,
+   "close_start": 68.55,
+   "close_end": 93.75,
+   "big_day": "2026-11-16",
+   "big_day_pct": 20.0,
+   "big_day_turnover_cr": 516.0,
+   "median_turnover_cr": 11.0,
+   "trigger_type": "No clear trigger",
+   "confidence": "Low",
+   "headline": "20% upper circuit on 16 November with no announcement, days after a loss-making quarter",
+   "what": "The stock ended October at its 52-week low. Results late on 12 November were weak: revenue down sharply and a small net loss. The price hardly moved for two sessions and then hit the 20% limit on 16 November on Rs 516 crore of turnover, against Rs 5 to 15 crore normally. There is no filing or news report for that day. A cyber security incident was disclosed on 2 November. Earlier this year there were media reports of a possible promoter stake sale, but nothing new on that has been filed.",
+   "numbers": "Q2 FY27 revenue Rs 214 crore (-39% YoY). Net loss Rs 0.75 crore (profit Rs 14 crore a year ago). Operating margin 5%.",
+   "caveat": "Trigger not confirmed. Treat as an unexplained move until the company or exchange says something.",
+   "price_adjusted": false,
+   "sources": [
+    {
+     "label": "NSE: Q2 results, 12 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/YATRA2022_12112026232600_signed_Outcome_Board_Meeting_12112026.pdf"
+    },
+    {
+     "label": "NSE: cyber security incident intimation, 2 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/YATRA2022_02112026220358_Intimation_of_Cyber_Security_Incident.pdf"
+    }
+   ],
+   "series": [
+    {
+     "date": "2026-10-30",
+     "close": 68.55,
+     "change_pct": null,
+     "turnover_cr": 13.0
+    },
+    {
+     "date": "2026-11-02",
+     "close": 72.24,
+     "change_pct": 5.4,
+     "turnover_cr": 9.0
+    },
+    {
+     "date": "2026-11-03",
+     "close": 72.27,
+     "change_pct": 0.0,
+     "turnover_cr": 5.0
+    },
+    {
+     "date": "2026-11-04",
+     "close": 76.51,
+     "change_pct": 5.9,
+     "turnover_cr": 15.0
+    },
+    {
+     "date": "2026-11-05",
+     "close": 77.33,
+     "change_pct": 1.1,
+     "turnover_cr": 21.0
+    },
+    {
+     "date": "2026-11-06",
+     "close": 77.39,
+     "change_pct": 0.1,
+     "turnover_cr": 4.0
+    },
+    {
+     "date": "2026-11-08",
+     "close": 78.05,
+     "change_pct": 0.9,
+     "turnover_cr": 1.0
+    },
+    {
+     "date": "2026-11-09",
+     "close": 76.83,
+     "change_pct": -1.6,
+     "turnover_cr": 4.0
+    },
+    {
+     "date": "2026-11-11",
+     "close": 81.87,
+     "change_pct": 6.6,
+     "turnover_cr": 42.0
+    },
+    {
+     "date": "2026-11-12",
+     "close": 81.04,
+     "change_pct": -1.0,
+     "turnover_cr": 7.0
+    },
+    {
+     "date": "2026-11-13",
+     "close": 78.13,
+     "change_pct": -3.6,
+     "turnover_cr": 14.0
+    },
+    {
+     "date": "2026-11-16",
+     "close": 93.75,
+     "change_pct": 20.0,
+     "turnover_cr": 516.0
+    }
+   ],
+   "evidence_hash": ""
+  },
+  {
+   "rank": 14,
+   "symbol": "AMANTA",
+   "name": "Amanta Healthcare",
+   "sector": "Pharmaceuticals",
+   "mcap_cr": 854,
+   "return_pct": 34.8,
+   "close_start": 163.56,
+   "close_end": 220.42,
+   "big_day": "2026-11-12",
+   "big_day_pct": 16.5,
+   "big_day_turnover_cr": 60.0,
+   "median_turnover_cr": 3.5,
+   "trigger_type": "Earnings plus other news",
+   "confidence": "Medium",
+   "headline": "Better Q2, a promoter raising his stake, then a volume spurt the exchange queried",
+   "what": "Results on 3 November showed the fastest sales growth in two years and profit four times last year's low base, and the stock rose steadily for a week. A promoter, Jitendrakumar Patel, was reported to have raised his holding to 9.79% (insider-trading disclosure filed 7 November). On 12 November the price jumped 16.5% on unusual volume; the exchange asked the company for clarification and it replied on 14 November.",
+   "numbers": "Q2 FY27 revenue Rs 83 crore (+17% YoY). Net profit Rs 4.9 crore (Rs 1.2 crore a year ago). Operating margin 21%.",
+   "caveat": "Small and thinly traded; it fell 6% on 16 November. I did not read the company's clarification letter.",
+   "price_adjusted": false,
+   "sources": [
+    {
+     "label": "NSE: reply on spurt in volume, 14 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/AMANTA_14112026103532_clarification_letter_for_spurt_in_volume_NSE.pdf"
+    },
+    {
+     "label": "NSE: Q2 results press release, 4 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/AMANTA_04112026113222_Press_Release.pdf"
+    }
+   ],
+   "series": [
+    {
+     "date": "2026-10-30",
+     "close": 163.56,
+     "change_pct": null,
+     "turnover_cr": 1.0
+    },
+    {
+     "date": "2026-11-02",
+     "close": 163.3,
+     "change_pct": -0.2,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-03",
+     "close": 172.48,
+     "change_pct": 5.6,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-04",
+     "close": 184.91,
+     "change_pct": 7.2,
+     "turnover_cr": 11.0
+    },
+    {
+     "date": "2026-11-05",
+     "close": 196.12,
+     "change_pct": 6.1,
+     "turnover_cr": 5.0
+    },
+    {
+     "date": "2026-11-06",
+     "close": 195.28,
+     "change_pct": -0.4,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-08",
+     "close": 203.16,
+     "change_pct": 4.0,
+     "turnover_cr": 6.0
+    },
+    {
+     "date": "2026-11-09",
+     "close": 202.15,
+     "change_pct": -0.5,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-11",
+     "close": 196.04,
+     "change_pct": -3.0,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-12",
+     "close": 228.37,
+     "change_pct": 16.5,
+     "turnover_cr": 60.0
+    },
+    {
+     "date": "2026-11-13",
+     "close": 234.47,
+     "change_pct": 2.7,
+     "turnover_cr": 20.0
+    },
+    {
+     "date": "2026-11-16",
+     "close": 220.42,
+     "change_pct": -6.0,
+     "turnover_cr": 7.0
+    }
+   ],
+   "evidence_hash": ""
+  },
+  {
+   "rank": 15,
+   "symbol": "ARYAMAN",
+   "name": "Aryaman Financial Services",
+   "sector": "Merchant banking and investments",
+   "mcap_cr": 1071,
+   "return_pct": 34.4,
+   "close_start": 650.55,
+   "close_end": 874.25,
+   "big_day": "2026-11-16",
+   "big_day_pct": 13.8,
+   "big_day_turnover_cr": 2.0,
+   "median_turnover_cr": 0.0,
+   "trigger_type": "Earnings",
+   "confidence": "Medium",
+   "headline": "Q2 profit about two and a half times last year's",
+   "what": "Results around 13 to 14 November showed a sharp rebound in income after four weak quarters. The stock rose 8% on 13 November and 14% on 16 November. Earlier in the month it had been creeping up on almost no volume.",
+   "numbers": "Q2 FY27 consolidated revenue Rs 35 crore (+85% YoY). Net profit Rs 25 crore (Rs 10 crore a year ago).",
+   "caveat": "Extremely illiquid: about Rs 2 crore traded on its busiest day and under Rs 0.5 crore on most days, so the price is easy to move. Income from merchant banking and investments is lumpy, and press reports give differing profit figures.",
+   "price_adjusted": false,
+   "sources": [
+    {
+     "label": "scanx: Q2 net profit (via Google News)",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUG94ODNmSXRXaEwwVTVDTF9xU082eEp1TDd5dDdGRFVlZXJZNXBJR3NaODVwSWF3UTZNbmcxbEhRWDVUUmV1QjMxTXMzRWwwYlpwMDkyNUp6a1E1WHg2N00wWEdQc29zeVVBOGJZQm5iR0FMUERzOGx5Q3VWN2l3RjJ2YmZZOEdUNHBvemVBbGFiR1UzOHR1SnBESm5rSkhmWWRDODRZV3UwRmV3Q1FoY3ZR?oc=5"
+    }
+   ],
+   "series": [
+    {
+     "date": "2026-10-30",
+     "close": 650.55,
+     "change_pct": null,
+     "turnover_cr": 0.0
+    },
+    {
+     "date": "2026-11-02",
+     "close": 663.5,
+     "change_pct": 2.0,
+     "turnover_cr": 0.0
+    },
+    {
+     "date": "2026-11-03",
+     "close": 665.0,
+     "change_pct": 0.2,
+     "turnover_cr": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "close": 670.95,
+     "change_pct": 0.9,
+     "turnover_cr": 0.0
+    },
+    {
+     "date": "2026-11-05",
+     "close": 687.1,
+     "change_pct": 2.4,
+     "turnover_cr": 0.0
+    },
+    {
+     "date": "2026-11-06",
+     "close": 690.0,
+     "change_pct": 0.4,
+     "turnover_cr": 0.0
+    },
+    {
+     "date": "2026-11-08",
+     "close": 702.15,
+     "change_pct": 1.8,
+     "turnover_cr": 0.0
+    },
+    {
+     "date": "2026-11-09",
+     "close": 700.0,
+     "change_pct": -0.3,
+     "turnover_cr": 0.0
+    },
+    {
+     "date": "2026-11-11",
+     "close": 718.95,
+     "change_pct": 2.7,
+     "turnover_cr": 0.0
+    },
+    {
+     "date": "2026-11-12",
+     "close": 712.45,
+     "change_pct": -0.9,
+     "turnover_cr": 0.0
+    },
+    {
+     "date": "2026-11-13",
+     "close": 768.25,
+     "change_pct": 7.8,
+     "turnover_cr": 0.0
+    },
+    {
+     "date": "2026-11-16",
+     "close": 874.25,
+     "change_pct": 13.8,
+     "turnover_cr": 2.0
+    }
+   ],
+   "evidence_hash": ""
+  },
+  {
+   "rank": 16,
+   "symbol": "APLLTD",
+   "name": "Alembic Pharmaceuticals",
+   "sector": "Pharmaceuticals",
+   "mcap_cr": 20788,
+   "return_pct": 32.5,
+   "close_start": 797.85,
+   "close_end": 1057.1,
+   "big_day": "2026-11-04",
+   "big_day_pct": 12.9,
+   "big_day_turnover_cr": 385.0,
+   "median_turnover_cr": 47.5,
+   "trigger_type": "Earnings",
+   "confidence": "High",
+   "headline": "Q2 profit up about 80% as margin jumped to 22%, plus three USFDA approvals",
+   "what": "Results on the afternoon of 4 November were far ahead of the recent run rate: revenue up more than a third and operating margin at 22% against 17% a year ago. The stock rose 13% that day and another 8% on 6 November. Around the results the company also announced final USFDA approvals for Venetoclax tablets (30 October), Olopatadine eye drops (4 November) and Binimetinib tablets (14 November), which kept the stock at 52-week highs.",
+   "numbers": "Q2 FY27 revenue Rs 2,603 crore (+36% YoY). Operating profit Rs 562 crore (Rs 316 crore). Net profit Rs 334 crore (Rs 184 crore a year ago).",
+   "caveat": "One quarter of very high margin; whether it holds is the open question. A separate press release on 4 November (not read) accompanied the results.",
+   "price_adjusted": false,
+   "sources": [
+    {
+     "label": "NSE: Q2 results press release, 4 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/APLLTD_04112026143323_Intimation_Press_Releases_S.pdf"
+    },
+    {
+     "label": "NSE: USFDA approval for Binimetinib, 14 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/APLLTD_14112026210157_APL-SE-Intimation-USFDAApproval-14-11-2026.pdf"
+    }
+   ],
+   "series": [
+    {
+     "date": "2026-10-30",
+     "close": 797.85,
+     "change_pct": null,
+     "turnover_cr": 6.0
+    },
+    {
+     "date": "2026-11-02",
+     "close": 803.0,
+     "change_pct": 0.6,
+     "turnover_cr": 8.0
+    },
+    {
+     "date": "2026-11-03",
+     "close": 802.8,
+     "change_pct": -0.0,
+     "turnover_cr": 7.0
+    },
+    {
+     "date": "2026-11-04",
+     "close": 906.7,
+     "change_pct": 12.9,
+     "turnover_cr": 385.0
+    },
+    {
+     "date": "2026-11-05",
+     "close": 893.5,
+     "change_pct": -1.5,
+     "turnover_cr": 176.0
+    },
+    {
+     "date": "2026-11-06",
+     "close": 965.15,
+     "change_pct": 8.0,
+     "turnover_cr": 227.0
+    },
+    {
+     "date": "2026-11-08",
+     "close": 1010.0,
+     "change_pct": 4.6,
+     "turnover_cr": 23.0
+    },
+    {
+     "date": "2026-11-09",
+     "close": 1017.3,
+     "change_pct": 0.7,
+     "turnover_cr": 101.0
+    },
+    {
+     "date": "2026-11-11",
+     "close": 1029.95,
+     "change_pct": 1.2,
+     "turnover_cr": 56.0
+    },
+    {
+     "date": "2026-11-12",
+     "close": 1047.25,
+     "change_pct": 1.7,
+     "turnover_cr": 47.0
+    },
+    {
+     "date": "2026-11-13",
+     "close": 1030.15,
+     "change_pct": -1.6,
+     "turnover_cr": 44.0
+    },
+    {
+     "date": "2026-11-16",
+     "close": 1057.1,
+     "change_pct": 2.6,
+     "turnover_cr": 48.0
+    }
+   ],
+   "evidence_hash": ""
+  },
+  {
+   "rank": 17,
+   "symbol": "AGIIL",
+   "name": "AGI Infra",
+   "sector": "Real estate",
+   "mcap_cr": 3970,
+   "return_pct": 32.5,
+   "close_start": 239.9,
+   "close_end": 317.76,
+   "big_day": "2026-11-06",
+   "big_day_pct": 8.6,
+   "big_day_turnover_cr": 255.0,
+   "median_turnover_cr": 52.0,
+   "trigger_type": "Earnings plus other news",
+   "confidence": "Medium",
+   "headline": "Project approval, 41% profit growth, and a Rs 275 crore QIP",
+   "what": "Three things landed in sequence. On 31 October the company received its RERA registration for the project Utopia by AGI, and the stock rose 6.5% on 2 November on heavy turnover. Q2 results on 6 November showed profit up about 41% with a 44% operating margin, and the stock gained 8.6% that day. On 12 November the board opened a qualified institutional placement to raise about Rs 275 crore at a floor price of Rs 269.2.",
+   "numbers": "Q2 FY27 revenue Rs 100 crore (+17% YoY). Net profit Rs 31 crore (Rs 22 crore a year ago). Operating margin 44%.",
+   "caveat": "The QIP floor price is about 15% below the current market price, and new shares dilute existing holders. The stock had fallen about 20% in October, so part of this is a recovery.",
+   "price_adjusted": false,
+   "sources": [
+    {
+     "label": "NSE: RERA registration for Utopia by AGI, 31 Oct",
+     "url": "https://nsearchives.nseindia.in/corporate/AGIINFRA_31102026121147_IntimationunderRegualtion30.pdf"
+    },
+    {
+     "label": "NSE: Q2 results, 6 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/AGIINFRA_06112026171503_FinancialResults30092026.pdf"
+    }
+   ],
+   "series": [
+    {
+     "date": "2026-10-30",
+     "close": 239.9,
+     "change_pct": null,
+     "turnover_cr": 16.0
+    },
+    {
+     "date": "2026-11-02",
+     "close": 255.51,
+     "change_pct": 6.5,
+     "turnover_cr": 178.0
+    },
+    {
+     "date": "2026-11-03",
+     "close": 256.06,
+     "change_pct": 0.2,
+     "turnover_cr": 193.0
+    },
+    {
+     "date": "2026-11-04",
+     "close": 258.94,
+     "change_pct": 1.1,
+     "turnover_cr": 15.0
+    },
+    {
+     "date": "2026-11-05",
+     "close": 277.05,
+     "change_pct": 7.0,
+     "turnover_cr": 60.0
+    },
+    {
+     "date": "2026-11-06",
+     "close": 300.93,
+     "change_pct": 8.6,
+     "turnover_cr": 255.0
+    },
+    {
+     "date": "2026-11-08",
+     "close": 298.85,
+     "change_pct": -0.7,
+     "turnover_cr": 10.0
+    },
+    {
+     "date": "2026-11-09",
+     "close": 296.89,
+     "change_pct": -0.7,
+     "turnover_cr": 38.0
+    },
+    {
+     "date": "2026-11-11",
+     "close": 300.66,
+     "change_pct": 1.3,
+     "turnover_cr": 29.0
+    },
+    {
+     "date": "2026-11-12",
+     "close": 301.92,
+     "change_pct": 0.4,
+     "turnover_cr": 44.0
+    },
+    {
+     "date": "2026-11-13",
+     "close": 316.63,
+     "change_pct": 4.9,
+     "turnover_cr": 63.0
+    },
+    {
+     "date": "2026-11-16",
+     "close": 317.76,
+     "change_pct": 0.4,
+     "turnover_cr": 79.0
+    }
+   ],
+   "evidence_hash": ""
+  },
+  {
+   "rank": 18,
+   "symbol": "FAZE3Q",
+   "name": "Faze Three",
+   "sector": "Home textiles",
+   "mcap_cr": 1384,
+   "return_pct": 31.3,
+   "close_start": 427.9,
+   "close_end": 561.75,
+   "big_day": "2026-11-04",
+   "big_day_pct": 20.0,
+   "big_day_turnover_cr": 92.0,
+   "median_turnover_cr": 3.0,
+   "trigger_type": "Earnings",
+   "confidence": "High",
+   "headline": "Swing from loss to profit in Q2 with revenue up 28%",
+   "what": "Results were filed on the evening of 3 November. Last year's September quarter was a loss; this year the company earned a 12% operating margin on higher installed capacity. The stock rose 20% on 4 November on Rs 92 crore of turnover, against Rs 1 to 2 crore normally, and has moved sideways since.",
+   "numbers": "Q2 FY27 revenue Rs 265 crore (+28% YoY). Net profit Rs 15 crore (loss of Rs 5 crore a year ago). Operating margin 12% (2.6%).",
+   "caveat": "The comparison is against an unusually bad quarter. Liquidity has dropped back to Rs 2 to 3 crore a day.",
+   "price_adjusted": false,
+   "sources": [
+    {
+     "label": "NSE: Q2 results, 3 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/FAZETHREE_03112026201002_Submission.pdf"
+    },
+    {
+     "label": "NSE: investor presentation, 3 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/FAZETHREE_03112026202044_Submission.pdf"
+    }
+   ],
+   "series": [
+    {
+     "date": "2026-10-30",
+     "close": 427.9,
+     "change_pct": null,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-02",
+     "close": 437.95,
+     "change_pct": 2.3,
+     "turnover_cr": 1.0
+    },
+    {
+     "date": "2026-11-03",
+     "close": 451.5,
+     "change_pct": 3.1,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-04",
+     "close": 541.8,
+     "change_pct": 20.0,
+     "turnover_cr": 92.0
+    },
+    {
+     "date": "2026-11-05",
+     "close": 563.85,
+     "change_pct": 4.1,
+     "turnover_cr": 49.0
+    },
+    {
+     "date": "2026-11-06",
+     "close": 550.0,
+     "change_pct": -2.5,
+     "turnover_cr": 10.0
+    },
+    {
+     "date": "2026-11-08",
+     "close": 544.0,
+     "change_pct": -1.1,
+     "turnover_cr": 1.0
+    },
+    {
+     "date": "2026-11-09",
+     "close": 540.45,
+     "change_pct": -0.7,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-11",
+     "close": 552.25,
+     "change_pct": 2.2,
+     "turnover_cr": 3.0
+    },
+    {
+     "date": "2026-11-12",
+     "close": 549.8,
+     "change_pct": -0.4,
+     "turnover_cr": 3.0
+    },
+    {
+     "date": "2026-11-13",
+     "close": 554.3,
+     "change_pct": 0.8,
+     "turnover_cr": 3.0
+    },
+    {
+     "date": "2026-11-16",
+     "close": 561.75,
+     "change_pct": 1.3,
+     "turnover_cr": 3.0
+    }
+   ],
+   "evidence_hash": ""
+  },
+  {
+   "rank": 19,
+   "symbol": "TVSSCS",
+   "name": "TVS Supply Chain Solutions",
+   "sector": "Logistics",
+   "mcap_cr": 6064,
+   "return_pct": 31.1,
+   "close_start": 104.68,
+   "close_end": 137.2,
+   "big_day": "2026-11-16",
+   "big_day_pct": 12.2,
+   "big_day_turnover_cr": 515.0,
+   "median_turnover_cr": 5.0,
+   "trigger_type": "Earnings",
+   "confidence": "High",
+   "headline": "Record Q2 revenue, profit more than doubled, and 20%+ growth guidance",
+   "what": "Results were published after market hours on Friday 13 November. On Monday 16 November the stock rose 12% on Rs 515 crore of turnover, against Rs 2 to 10 crore on a normal day. Revenue growth has accelerated for four straight quarters, and management guided for more than 20% growth for the full year on the call that morning.",
+   "numbers": "Q2 FY27 revenue Rs 3,687 crore (+38% YoY). Net profit Rs 37 crore (Rs 16 crore a year ago). Operating margin 7%.",
+   "caveat": "Net margin is still about 1%, P/E is about 67, and Screener.in shows 31.9% of promoter holding pledged.",
+   "price_adjusted": false,
+   "sources": [
+    {
+     "label": "NSE: Q2 results press release, 13 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/CSCOMPLIANCE_13112026201237_Disclosure_Press_release_Q2_sd.pdf"
+    },
+    {
+     "label": "NSE: earnings presentation, 13 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/CSCOMPLIANCE_13112026212938_Earnings_call_presentation_disclosure_sd.pdf"
+    }
+   ],
+   "series": [
+    {
+     "date": "2026-10-30",
+     "close": 104.68,
+     "change_pct": null,
+     "turnover_cr": 11.0
+    },
+    {
+     "date": "2026-11-02",
+     "close": 109.52,
+     "change_pct": 4.6,
+     "turnover_cr": 5.0
+    },
+    {
+     "date": "2026-11-03",
+     "close": 110.63,
+     "change_pct": 1.0,
+     "turnover_cr": 3.0
+    },
+    {
+     "date": "2026-11-04",
+     "close": 116.65,
+     "change_pct": 5.4,
+     "turnover_cr": 9.0
+    },
+    {
+     "date": "2026-11-05",
+     "close": 119.0,
+     "change_pct": 2.0,
+     "turnover_cr": 7.0
+    },
+    {
+     "date": "2026-11-06",
+     "close": 117.07,
+     "change_pct": -1.6,
+     "turnover_cr": 4.0
+    },
+    {
+     "date": "2026-11-08",
+     "close": 119.89,
+     "change_pct": 2.4,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-09",
+     "close": 119.63,
+     "change_pct": -0.2,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-11",
+     "close": 120.28,
+     "change_pct": 0.5,
+     "turnover_cr": 5.0
+    },
+    {
+     "date": "2026-11-12",
+     "close": 122.67,
+     "change_pct": 2.0,
+     "turnover_cr": 7.0
+    },
+    {
+     "date": "2026-11-13",
+     "close": 122.25,
+     "change_pct": -0.3,
+     "turnover_cr": 3.0
+    },
+    {
+     "date": "2026-11-16",
+     "close": 137.2,
+     "change_pct": 12.2,
+     "turnover_cr": 515.0
+    }
+   ],
+   "evidence_hash": ""
+  },
+  {
+   "rank": 20,
+   "symbol": "VRLLOG",
+   "name": "VRL Logistics",
+   "sector": "Logistics",
+   "mcap_cr": 5955,
+   "return_pct": 30.9,
+   "close_start": 259.9,
+   "close_end": 340.3,
+   "big_day": "2026-11-04",
+   "big_day_pct": 12.1,
+   "big_day_turnover_cr": 139.0,
+   "median_turnover_cr": 51.5,
+   "trigger_type": "Earnings",
+   "confidence": "High",
+   "headline": "Q2 profit doubled as revenue grew 21% and margin reached 23%",
+   "what": "Results came out during market hours on 2 November. The stock rose 7% that day, 6% on 3 November on Rs 486 crore of turnover and 12% on 4 November. After two years of flat revenue, growth has returned for two quarters. The company also completed its share buyback during the month.",
+   "numbers": "Q2 FY27 revenue Rs 962 crore (+21% YoY). Operating profit Rs 221 crore (Rs 151 crore). Net profit Rs 103 crore (Rs 50 crore a year ago).",
+   "caveat": "Third logistics name on the list along with Skyways and TVS Supply Chain, so part of the move may be sector-wide.",
+   "price_adjusted": false,
+   "sources": [
+    {
+     "label": "NSE: Q2 results, 2 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/VRLLOGI_02112026161844_OutcomeBM02112026.pdf"
+    },
+    {
+     "label": "NSE: earnings presentation, 2 Nov",
+     "url": "https://nsearchives.nseindia.in/corporate/VRLLOGI_02112026170621_Earningspresentation02112026.pdf"
+    }
+   ],
+   "series": [
+    {
+     "date": "2026-10-30",
+     "close": 259.9,
+     "change_pct": null,
+     "turnover_cr": 2.0
+    },
+    {
+     "date": "2026-11-02",
+     "close": 278.8,
+     "change_pct": 7.3,
+     "turnover_cr": 9.0
+    },
+    {
+     "date": "2026-11-03",
+     "close": 295.45,
+     "change_pct": 6.0,
+     "turnover_cr": 486.0
+    },
+    {
+     "date": "2026-11-04",
+     "close": 331.2,
+     "change_pct": 12.1,
+     "turnover_cr": 139.0
+    },
+    {
+     "date": "2026-11-05",
+     "close": 312.6,
+     "change_pct": -5.6,
+     "turnover_cr": 82.0
+    },
+    {
+     "date": "2026-11-06",
+     "close": 339.05,
+     "change_pct": 8.5,
+     "turnover_cr": 127.0
+    },
+    {
+     "date": "2026-11-08",
+     "close": 318.1,
+     "change_pct": -6.2,
+     "turnover_cr": 19.0
+    },
+    {
+     "date": "2026-11-09",
+     "close": 323.8,
+     "change_pct": 1.8,
+     "turnover_cr": 213.0
+    },
+    {
+     "date": "2026-11-11",
+     "close": 337.55,
+     "change_pct": 4.2,
+     "turnover_cr": 51.0
+    },
+    {
+     "date": "2026-11-12",
+     "close": 332.95,
+     "change_pct": -1.4,
+     "turnover_cr": 52.0
+    },
+    {
+     "date": "2026-11-13",
+     "close": 340.1,
+     "change_pct": 2.1,
+     "turnover_cr": 28.0
+    },
+    {
+     "date": "2026-11-16",
+     "close": 340.3,
+     "change_pct": 0.1,
+     "turnover_cr": 27.0
+    }
+   ],
+   "evidence_hash": ""
+  }
+ ]
+}

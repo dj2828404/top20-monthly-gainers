@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Top 20 Monthly Gainers and Triggers</title>
+<style>
+:root{--bg:#fbfaf7;--panel:#ffffff;--fg:#1c1b19;--muted:#6a675f;--line:#e2dfd6;--accent:#1f5fa8;--ok:#2e7d4f;--warn:#b26a00;--grid:#ebe8e0}
+@media (prefers-color-scheme:dark){:root{--bg:#161614;--panel:#1f1f1c;--fg:#ecebe6;--muted:#a19e95;--line:#33322e;--accent:#7fb2ee;--ok:#6cc08b;--warn:#e0a84a;--grid:#2a2926}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:1000px;margin:0 auto;padding:24px 16px 56px;display:flex;flex-direction:column;gap:28px}
+h1{font:400 30px/1.2 Georgia,"Times New Roman",serif;margin:0 0 8px}
+h2{font-size:18px;font-weight:600;margin:0 0 12px}
+h3{font-size:18px;font-weight:600;margin:0}
+h4{font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.04em;margin:16px 0 4px}
+p{margin:0}
+.lede{font-size:19px;line-height:1.4;margin-bottom:8px}
+.note{color:var(--muted);font-size:13px}
+.bar-top{display:flex;gap:12px;align-items:center;flex-wrap:wrap;justify-content:space-between}
+select{font:inherit;color:var(--fg);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 10px;max-width:100%}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px}
+.tile-label,.tile-sub{color:var(--muted);font-size:13px}
+.tile-num{font:400 30px/1.2 Georgia,serif;font-variant-numeric:tabular-nums;margin:4px 0}
+.types{display:flex;flex-direction:column;gap:8px}
+.type-row{display:grid;grid-template-columns:minmax(110px,200px) 1fr 2.5em;gap:8px;align-items:center}
+.type-bar{height:18px;border-radius:3px;background:var(--accent);min-width:2px}
+.type-bar.unclear{background:var(--muted)}
+.type-n{text-align:right;font-variant-numeric:tabular-nums}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%}
+th{text-align:left;font-weight:600;color:var(--muted);font-size:13px;padding:8px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:8px;border-bottom:1px solid var(--line);vertical-align:top}
+.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tbody tr{cursor:pointer}
+tbody tr:hover,tbody tr:focus,tbody tr.on{background:var(--panel);outline:none}
+.sym{display:block;color:var(--muted);font-size:13px}
+.pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:1px 8px;font-size:13px;white-space:nowrap}
+.pill.ok{border-color:var(--ok)}
+.pill.warn{border-color:var(--warn)}
+.detail{display:flex;flex-direction:column;gap:12px}
+.meta{color:var(--muted);line-height:1.6}
+.meta b{color:var(--fg);font-variant-numeric:tabular-nums}
+.chart{position:relative;min-height:260px}
+.chart svg{display:block;width:100%;height:auto}
+.chart text{font-size:12px;fill:var(--muted)}
+.tip{position:absolute;pointer-events:none;background:var(--panel);border:1px solid var(--line);box-shadow:0 4px 14px rgba(0,0,0,.15);border-radius:8px;padding:8px;font-size:13px;white-space:nowrap;display:none}
+.tip b{display:block}
+.tip span{display:block;color:var(--muted)}
+ul.src{margin:0;padding-left:1.2em;line-height:1.6}
+a{color:var(--accent)}
+details{color:var(--muted);font-size:13px}
+details p{margin:8px 0}
+.error{color:var(--warn)}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div class="bar-top">
+    <h1>Top 20 gainers of the month and what moved them</h1>
+    <select id="month" aria-label="Month"></select>
+  </div>
+  <p class="lede" id="takeaway"></p>
+  <p class="note" id="period"></p>
+  <p class="note error" id="error" hidden>The data could not be loaded. Please try again in a few minutes.</p>
+</header>
+
+<section class="tiles">
+  <div class="card"><div class="tile-label">Top gainer</div><div class="tile-num" id="t-top">&mdash;</div><div class="tile-sub" id="t-top-name"></div></div>
+  <div class="card"><div class="tile-label">Median gain of the 20</div><div class="tile-num" id="t-median">&mdash;</div><div class="tile-sub">Half the list gained more than this</div></div>
+  <div class="card"><div class="tile-label">Gain needed to make the list</div><div class="tile-num" id="t-cutoff">&mdash;</div><div class="tile-sub">Return of the last stock on the list</div></div>
+</section>
+
+<section>
+  <h2>What kind of trigger moved each stock</h2>
+  <div class="types" id="types"></div>
+</section>
+
+<section>
+  <h2>The 20 biggest gainers</h2>
+  <p class="note" style="margin-bottom:8px">Select a row to read the full trigger write-up below. Confidence says how sure the link between the news and the price move is.</p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th class="num">#</th><th>Company</th><th class="num">Return</th><th>Sector</th><th class="num">Market cap, Rs crore</th><th>Trigger</th><th>Confidence</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+</section>
+
+<section class="detail" id="detail">
+  <h2>Why it moved, stock by stock</h2>
+  <select id="pick" aria-label="Stock"></select>
+  <h3 id="s-headline"></h3>
+  <p class="meta">Trigger type: <b id="s-type"></b>. Confidence: <b id="s-conf"></b>. Return for the period: <b id="s-ret"></b>.</p>
+  <div class="chart" id="chart"></div>
+  <p class="meta">Biggest single day: <b id="s-bigday"></b>, <b id="s-bigpct"></b> on traded value of Rs <b id="s-bigturn"></b> crore. Its median day in the period traded Rs <b id="s-medturn"></b> crore.</p>
+  <div>
+    <h4>What happened</h4><p id="s-what"></p>
+    <h4>Key numbers</h4><p id="s-numbers"></p>
+    <h4>Caveats</h4><p id="s-caveat"></p>
+    <h4>Sources</h4><ul class="src" id="s-sources"></ul>
+  </div>
+</section>
+
+<details>
+  <summary>How this list is built and what the trigger labels mean</summary>
+  <p>Prices come from the NSE daily bhavcopy files (EQ and BE series). Return is measured from the last close of the previous month to the latest close of the month shown, adjusted for splits and bonuses. Stocks listed during the month, SME-platform stocks and BSE-only stocks are not included. Market cap is from Screener.in and is used only for the minimum market cap cut-off. There is no liquidity filter, so thinly traded names can appear.</p>
+  <p>For each stock, a script collects exchange announcements, quarterly numbers and news headlines, and an AI model (Claude) writes the explanation from that evidence. "No clear trigger" means nothing public explains the move. A trigger is the most likely explanation, not proof of cause.</p>
+  <p>This page is research support and not investment advice. <span id="generated"></span></p>
+</details>
+</main>
+
+<script>
+(function () {
+  'use strict';
+  var $ = function (id) { return document.getElementById(id); };
+  var pct = function (v) { return (v > 0 ? '+' : '') + Number(v).toFixed(1) + '%'; };
+  var num = function (v) { return Number(v).toLocaleString('en-IN', {maximumFractionDigits: 1}); };
+  var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  var day = function (s, withYear) { var p = String(s).split('-'); return Number(p[2]) + ' ' + MONTHS[Number(p[1]) - 1] + (withYear ? ' ' + p[0] : ''); };
+  var monthName = function (m) { var p = m.split('-'); return ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][Number(p[1]) - 1] + ' ' + p[0]; };
+  var el = function (tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  var SVG = 'http://www.w3.org/2000/svg';
+  var svgEl = function (tag, attrs) { var e = document.createElementNS(SVG, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); return e; };
+  var state = {data: null, sel: null};
+
+  function getJSON(url) { return fetch(url, {cache: 'no-store'}).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+  function fail() { $('error').hidden = false; }
+
+  function loadMonth(m) {
+    getJSON('data/' + m + '.json').then(function (d) { state.data = d; state.sel = d.stocks.length ? d.stocks[0].symbol : null; $('error').hidden = true; render(); }).catch(fail);
+  }
+
+  function render() {
+    var d = state.data, s = d.stocks;
+    var earn = s.filter(function (x) { return String(x.trigger_type).indexOf('Earnings') === 0; }).length;
+    var unclear = s.filter(function (x) { return x.trigger_type === 'No clear trigger'; }).length;
+    $('takeaway').textContent = earn + ' of the ' + s.length + ' biggest gainers moved on quarterly results, alone or with other news, and ' + unclear + (unclear === 1 ? ' has' : ' have') + ' no clear public trigger.';
+    $('period').textContent = 'NSE-listed stocks with a market cap of Rs ' + num(d.min_mcap_cr) + ' crore or more. Return is measured from the ' + day(d.start_date, true) + ' close to the ' + day(d.end_date, true) + ' close' + (d.complete ? ' (full month).' : ', so this is the month so far.');
+    $('generated').textContent = 'Last updated ' + String(d.generated_at).slice(0, 10) + '.';
+    var rets = s.map(function (x) { return x.return_pct; }).sort(function (a, b) { return b - a; });
+    var mid = rets.length ? (rets.length % 2 ? rets[(rets.length - 1) / 2] : (rets[rets.length / 2 - 1] + rets[rets.length / 2]) / 2) : null;
+    $('t-top').textContent = rets.length ? pct(rets[0]) : '—';
+    $('t-top-name').textContent = s.length ? s[0].name : '';
+    $('t-median').textContent = mid == null ? '—' : pct(mid);
+    $('t-cutoff').textContent = rets.length ? pct(rets[rets.length - 1]) : '—';
+
+    var counts = {};
+    s.forEach(function (x) { counts[x.trigger_type] = (counts[x.trigger_type] || 0) + 1; });
+    var types = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a]; });
+    var max = Math.max.apply(null, types.map(function (t) { return counts[t]; }).concat([1]));
+    $('types').replaceChildren.apply($('types'), types.map(function (t) {
+      var row = el('div', 'type-row');
+      var track = el('div');
+      var bar = el('div', 'type-bar' + (t === 'No clear trigger' || t === 'Not researched yet' ? ' unclear' : ''));
+      bar.style.width = (100 * counts[t] / max) + '%';
+      track.appendChild(bar);
+      row.append(el('div', null, t), track, el('div', 'type-n', String(counts[t])));
+      return row;
+    }));
+
+    $('pick').replaceChildren.apply($('pick'), s.map(function (x) { return new Option(x.rank + '. ' + x.name, x.symbol); }));
+    renderRows();
+    renderDetail();
+  }
+
+  function pick(symbol, scroll) {
+    state.sel = symbol; renderRows(); renderDetail();
+    if (scroll) $('detail').scrollIntoView({block: 'start'});
+  }
+
+  function renderRows() {
+    $('rows').replaceChildren.apply($('rows'), state.data.stocks.map(function (x) {
+      var tr = el('tr', x.symbol === state.sel ? 'on' : null);
+      tr.tabIndex = 0;
+      tr.appendChild(el('td', 'num', String(x.rank)));
+      var name = el('td', null, x.name); name.appendChild(el('span', 'sym', x.symbol)); tr.appendChild(name);
+      tr.appendChild(el('td', 'num', pct(x.return_pct)));
+      tr.appendChild(el('td', null, x.sector));
+      tr.appendChild(el('td', 'num', Number(x.mcap_cr).toLocaleString('en-IN', {maximumFractionDigits: 0})));
+      var t = el('td'); t.appendChild(el('span', 'pill' + (x.trigger_type === 'Earnings' ? ' ok' : x.trigger_type === 'No clear trigger' ? ' warn' : ''), x.trigger_type)); tr.appendChild(t);
+      tr.appendChild(el('td', null, x.confidence));
+      tr.onclick = function () { pick(x.symbol, true); };
+      tr.onkeydown = function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); pick(x.symbol, true); } };
+      return tr;
+    }));
+  }
+
+  function current() { var s = state.data.stocks; for (var i = 0; i < s.length; i++) if (s[i].symbol === state.sel) return s[i]; return s[0] || null; }
+
+  function renderDetail() {
+    var x = current(); if (!x) return;
+    $('pick').value = x.symbol;
+    $('s-headline').textContent = x.headline;
+    $('s-type').textContent = x.trigger_type;
+    $('s-conf').textContent = x.confidence || 'not rated';
+    $('s-ret').textContent = pct(x.return_pct);
+    $('s-bigday').textContent = day(x.big_day);
+    $('s-bigpct').textContent = pct(x.big_day_pct);
+    $('s-bigturn').textContent = num(x.big_day_turnover_cr);
+    $('s-medturn').textContent = num(x.median_turnover_cr);
+    $('s-what').textContent = x.what;
+    $('s-numbers').textContent = x.numbers || 'No reported figures in the evidence.';
+    $('s-caveat').textContent = (x.caveat || 'None noted.') + (x.price_adjusted ? ' Prices on the chart are adjusted for a split, bonus or similar corporate action during the period.' : '');
+    $('s-sources').replaceChildren.apply($('s-sources'), (x.sources || []).filter(function (q) { return q && String(q.url).indexOf('https://') === 0; }).map(function (q) {
+      var li = el('li'), a = el('a', null, q.label || q.url);
+      a.href = q.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+      li.appendChild(a); return li;
+    }));
+    drawChart(x);
+  }
+
+  function niceTicks(lo, hi, n) {
+    var span = hi - lo || Math.abs(hi) || 1, raw = span / n, mag = Math.pow(10, Math.floor(Math.log10(raw))), f = raw / mag;
+    var step = (f >= 5 ? 10 : f >= 2 ? 5 : f >= 1 ? 2 : 1) * mag, a = Math.floor(lo / step) * step, b = Math.ceil(hi / step) * step, out = [];
+    for (var v = a; v <= b + step / 2; v += step) out.push(Number(v.toPrecision(12)));
+    return out;
+  }
+
+  function drawChart(x) {
+    var box = $('chart'), rows = x.series || [];
+    box.replaceChildren();
+    if (!rows.length) return;
+    var W = Math.max(300, box.clientWidth || 600), H = 260, mt = 22, mb = 28, mr = 18;
+    var svg = svgEl('svg', {viewBox: '0 0 ' + W + ' ' + H, role: 'img', 'aria-label': 'Daily closing price of ' + x.name + ' from ' + day(rows[0].date) + ' to ' + day(rows[rows.length - 1].date)});
+    box.appendChild(svg);
+    var closes = rows.map(function (r) { return r.close; });
+    var ticks = niceTicks(Math.min.apply(null, closes), Math.max.apply(null, closes), 4);
+    var lo = ticks[0], hi = ticks[ticks.length - 1];
+    var y = function (v) { return H - mb - (v - lo) / (hi - lo || 1) * (H - mb - mt); };
+    var fmtY = function (v) { return Number(v).toLocaleString('en-IN', {maximumFractionDigits: hi - lo < 5 ? 2 : 0}); };
+    var labels = ticks.map(function (t) { var e = svgEl('text', {'text-anchor': 'end', dy: '0.32em'}); e.textContent = fmtY(t); svg.appendChild(e); return e; });
+    var widest = Math.max.apply(null, labels.map(function (e) { return e.getComputedTextLength(); }));
+    var ml = Math.ceil(widest) + 12;
+    var step = rows.length > 1 ? (W - mr - ml) / (rows.length - 1 + 0.8) : 0;
+    var xp = function (i) { return ml + step * (i + 0.4); };
+    ticks.forEach(function (t, i) {
+      labels[i].setAttribute('x', ml - 8); labels[i].setAttribute('y', y(t));
+      svg.appendChild(svgEl('line', {x1: ml, x2: W - mr, y1: y(t), y2: y(t), stroke: 'var(--grid)'}));
+    });
+    var every = Math.max(1, Math.ceil(46 / (step || 46)));
+    rows.forEach(function (r, i) {
+      if ((rows.length - 1 - i) % every) return;
+      var e = svgEl('text', {x: xp(i), y: H - 8, 'text-anchor': 'middle'}); e.textContent = day(r.date); svg.appendChild(e);
+    });
+    svg.appendChild(svgEl('path', {d: rows.map(function (r, i) { return (i ? 'L' : 'M') + xp(i).toFixed(1) + ' ' + y(r.close).toFixed(1); }).join(' '), fill: 'none', stroke: 'var(--accent)', 'stroke-width': 2}));
+    var big = -1;
+    rows.forEach(function (r, i) { if (r.change_pct != null && (big < 0 || r.change_pct > rows[big].change_pct)) big = i; });
+    rows.forEach(function (r, i) { svg.appendChild(svgEl('circle', {cx: xp(i), cy: y(r.close), r: i === big ? 5 : 3, fill: 'var(--accent)'})); });
+    if (big >= 0) {
+      var right = xp(big) > W - 110;
+      var e = svgEl('text', {x: xp(big) + (right ? -8 : 8), y: Math.max(12, y(rows[big].close) - 8), 'text-anchor': right ? 'end' : 'start'});
+      e.textContent = 'Biggest day ' + pct(rows[big].change_pct); svg.appendChild(e);
+    }
+    var focus = svgEl('circle', {r: 6, fill: 'none', stroke: 'var(--accent)', 'stroke-width': 2, display: 'none'}); svg.appendChild(focus);
+    var tip = el('div', 'tip'), tHead = el('b'), tClose = el('span'), tChg = el('span'), tTurn = el('span');
+    tip.append(tHead, tClose, tChg, tTurn); box.appendChild(tip);
+    var show = function (ev) {
+      var rect = box.getBoundingClientRect(), scale = rect.width ? W / rect.width : 1, px = (ev.clientX - rect.left) * scale, near = 0;
+      rows.forEach(function (r, i) { if (Math.abs(xp(i) - px) < Math.abs(xp(near) - px)) near = i; });
+      var r = rows[near];
+      focus.setAttribute('display', ''); focus.setAttribute('cx', xp(near)); focus.setAttribute('cy', y(r.close));
+      tHead.textContent = day(r.date, true);
+      tClose.textContent = 'Close: Rs ' + Number(r.close).toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+      tChg.textContent = r.change_pct == null ? 'Start of the period' : 'Day change: ' + pct(r.change_pct);
+      tTurn.textContent = 'Traded value: Rs ' + num(r.turnover_cr) + ' crore';
+      tip.style.display = 'block';
+      tip.style.left = Math.min(Math.max(0, xp(near) / scale + 12), Math.max(0, rect.width - tip.offsetWidth)) + 'px';
+      tip.style.top = Math.max(0, y(r.close) / scale - tip.offsetHeight - 10) + 'px';
+    };
+    var hide = function () { tip.style.display = 'none'; focus.setAttribute('display', 'none'); };
+    var hit = svgEl('rect', {x: 0, y: 0, width: W, height: H, fill: 'transparent'});
+    hit.addEventListener('pointermove', show); hit.addEventListener('pointerdown', show); hit.addEventListener('pointerleave', hide);
+    svg.appendChild(hit);
+  }
+
+  $('pick').onchange = function () { pick($('pick').value, false); };
+  $('month').onchange = function () { loadMonth($('month').value); };
+  var resizeTimer = null;
+  window.addEventListener('resize', function () { clearTimeout(resizeTimer); resizeTimer = setTimeout(function () { if (state.data) drawChart(current()); }, 150); });
+
+  getJSON('data/index.json').then(function (ix) {
+    var months = ix.months || [];
+    $('month').replaceChildren.apply($('month'), months.map(function (m) { return new Option(monthName(m.month) + (m.complete ? '' : ' (so far)'), m.month); }));
+    if (months.length) loadMonth(months[0].month); else fail();
+  }).catch(fail);
+})();
+</script>
+</body>
+</html>
