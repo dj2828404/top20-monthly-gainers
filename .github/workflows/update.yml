@@ -1,9 +1,10 @@
 name: Update gainers
 
 on:
-  schedule:
-    # 20:00 India time, Monday to Friday (GitHub uses UTC)
-    - cron: "30 14 * * 1-5"
+  # Runs only when you press "Run workflow" on the Actions tab.
+  # To make it automatic again, add a schedule here, for example 20:00 India time on weekdays:
+  #   schedule:
+  #     - cron: "30 14 * * 1-5"
   workflow_dispatch:
 
 permissions:

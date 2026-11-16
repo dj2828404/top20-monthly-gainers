@@ -1,13 +1,13 @@
 # Top 20 Monthly Gainers and Triggers
 
 A website that lists the 20 biggest NSE gainers of the calendar month (market cap of Rs 500 crore or more)
-and explains what triggered each move. It updates itself every weekday at about 8 pm India time.
+and explains what triggered each move. It updates only when you ask it to: Actions tab > "Update gainers" > Run workflow.
 
 ## How it works
 
 - `scripts/update.py` downloads NSE daily price files, ranks all stocks, checks market cap on Screener.in,
   gathers announcements, quarterly numbers and news for the top 20, and asks Claude to write the trigger explanation.
-- `.github/workflows/update.yml` runs that script on GitHub's servers on a schedule and saves the result.
+- `.github/workflows/update.yml` runs that script on GitHub's servers when you press Run workflow, and saves the result.
 - `docs/` is the website. GitHub Pages serves it. `docs/data/` holds one file per month, so past months stay available.
 
 ## One-time setup
@@ -28,7 +28,7 @@ In `.github/workflows/update.yml`, under `env:` of the "Run the update" step, yo
 - `TOP_N: "20"`  number of stocks
 - `CLAUDE_MODEL: "claude-sonnet-5-5"`  the model that writes the triggers (a smaller model costs less)
 
-The schedule is the `cron` line in the same file (GitHub uses UTC time).
+To make it run automatically, uncomment the `schedule` lines at the top of the same file (GitHub uses UTC time).
 
 ## Good to know
 
